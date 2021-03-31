@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
@@ -78,7 +79,7 @@ WSGI_APPLICATION = 'custom_pro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Custom-Validation',
+        'NAME': 'Custom-Validation1',
         'USER': 'postgres',
         'PASSWORD': 'admin',#In office it is admin and in pc it is akash
         'HOST': '127.0.0.1',
