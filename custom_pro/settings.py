@@ -80,9 +80,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'Custom-Validation',
         'USER': 'postgres',
-        'PASSWORD': 'admin',
+        'PASSWORD': 'admin',#In office it is admin and in pc it is akash
         'HOST': '127.0.0.1',
-        'PORT': '5435',
+        'PORT': '5435', #In office it is 5435 and in pc it is 5436
     }
 }
 

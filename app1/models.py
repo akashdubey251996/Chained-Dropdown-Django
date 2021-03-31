@@ -30,6 +30,7 @@ class StudentsRegistrationModel(AbstractUser):
     date_joined = models.DateTimeField(verbose_name='date joined', auto_now_add=True)
 
     USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS=[]
 
 
     
